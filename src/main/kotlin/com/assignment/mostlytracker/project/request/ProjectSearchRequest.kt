@@ -1,0 +1,3 @@
+package com.assignment.mostlytracker.project.request
+
+internal class ProjectSearchRequest

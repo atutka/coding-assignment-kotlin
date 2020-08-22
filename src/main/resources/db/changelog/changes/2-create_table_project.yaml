@@ -1,0 +1,10 @@
+databaseChangeLog:
+  - changeSet:
+      id: 2-create_table_project-1
+      author: arkadiusz.tutka
+      changes:
+        - sqlFile:
+            endDelimiter: \nGO
+            splitStatements: true
+            path: db/sql/2-create_table_project.sql
+            stripComments: true

@@ -1,0 +1,10 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1-create_schema_tracker-1
+      author: arkadiusz.tutka
+      changes:
+        - sqlFile:
+            endDelimiter: \nGO
+            splitStatements: true
+            path: db/sql/1-create_schema_tracker.sql
+            stripComments: true
